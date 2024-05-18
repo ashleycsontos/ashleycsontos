@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Ashley wuz here</title>
+        <script>
+            let i = 0;
+            function updateText() {
+                i++;
+                const test1 = document.getElementById('test1')
+                //const x = 'Clicked this ' + i + "times."
+                test1.innerHTML = `Clicked this ${i} times.` 
+        
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Click the button</h1>
+        <p>Yo <button onclick="updateText()">Click me</button></p>
+        <p id="test1"></p>
+    </body>
+
+</html>
